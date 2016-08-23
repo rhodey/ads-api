@@ -41,7 +41,7 @@ public class ZodiacTweetListener extends TweetListener {
   @Override
   protected void onTrackedTweet(Status status) {
     VersionedEntry<Status> entry = tweetQueue.add(status);
-    log.info("received tweet for term: " + trackTerm + ", version: " + entry.getVersion() + ", text: " + status.getText());
+    log.debug("received tweet for term: " + trackTerm + ", version: " + entry.getVersion() + ", text: " + status.getText());
   }
 
 }
