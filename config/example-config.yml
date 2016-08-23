@@ -1,0 +1,25 @@
+server:
+  type: simple
+  rootPath: /api/*
+  applicationContextPath: /
+  connector:
+    type: http
+    port: 8081
+
+twitter:
+  twitterApiKey: AAABBBCCCDDD
+  twitterApiSecret: EEEFFFGGGHHH
+  twitterAccountKey: IIIJJJKKKLLL
+  twitterAccountSecret: MMMNNNOOOPPP
+
+zodiac:
+  twitterTrackTerms: pisces,scorpio
+  tweetHistoryLength: 100
+
+logging:
+  level: INFO
+  appenders:
+    - type: console
+      threshold: ALL
+      timeZone: UTC
+      target: stdout

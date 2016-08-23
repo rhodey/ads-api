@@ -1,0 +1,15 @@
+config.yml
+nginx.site
+cp-html.sh
+
+target/
+.idea/
+
+*.class
+*.jar
+*.iml
+*.so
+~*
+*.swp
+
+notes.txt
