@@ -23,29 +23,29 @@ import javax.validation.constraints.NotNull;
 
 public class TwitterConfig {
 
-  @NotNull private String twitterApiKey;
-  @NotNull private String twitterApiSecret;
-  @NotNull private String twitterAccountKey;
-  @NotNull private String twitterAccountSecret;
+  @NotNull private String apiKey;
+  @NotNull private String apiSecret;
+  @NotNull private String accountKey;
+  @NotNull private String accountSecret;
 
   @JsonProperty
-  public String getTwitterApiKey() {
-    return twitterApiKey;
+  public String getApiKey() {
+    return apiKey;
   }
 
   @JsonProperty
-  public String getTwitterApiSecret() {
-    return twitterApiSecret;
+  public String getApiSecret() {
+    return apiSecret;
   }
 
   @JsonProperty
-  public String getTwitterAccountKey() {
-    return twitterAccountKey;
+  public String getAccountKey() {
+    return accountKey;
   }
 
   @JsonProperty
-  public String getTwitterAccountSecret() {
-    return twitterAccountSecret;
+  public String getAccountSecret() {
+    return accountSecret;
   }
 
 }

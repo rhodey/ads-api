@@ -40,8 +40,8 @@ public class TwitterClientFactory {
   public BasicClient create(BlockingQueue<String> queue, List<? extends TweetListener> listeners) {
     StatusesFilterEndpoint endpoint = new StatusesFilterEndpoint();
     Authentication         auth     = new OAuth1(
-        config.getTwitterApiKey(),     config.getTwitterApiSecret(),
-        config.getTwitterAccountKey(), config.getTwitterAccountSecret()
+        config.getApiKey(),     config.getApiSecret(),
+        config.getAccountKey(), config.getAccountSecret()
     );
 
     endpoint.trackTerms(

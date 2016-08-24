@@ -7,10 +7,10 @@ server:
     port: 8081
 
 twitter:
-  twitterApiKey: AAABBBCCCDDD
-  twitterApiSecret: EEEFFFGGGHHH
-  twitterAccountKey: IIIJJJKKKLLL
-  twitterAccountSecret: MMMNNNOOOPPP
+  apiKey: AAABBBCCCDDD
+  apiSecret: EEEFFFGGGHHH
+  accountKey: IIIJJJKKKLLL
+  accountSecret: MMMNNNOOOPPP
 
 zodiac:
   twitterTrackTerms: pisces,scorpio
