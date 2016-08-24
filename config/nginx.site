@@ -1,0 +1,23 @@
+server {
+  listen 8080;
+  server_name .zodiactweets.local;
+
+  location / {
+    root /home/rhodey/dev/advertising/zodiactweets.com;
+    index index.html;
+  }
+
+  location /api {
+    proxy_pass http://localhost:8081/api;
+  }
+}
+
+server {
+  listen 8080;
+  server_name .stolen.holiday.local;
+
+  location / {
+    root /home/rhodey/dev/advertising/stolen.holiday;
+    index index.html;
+  }
+}

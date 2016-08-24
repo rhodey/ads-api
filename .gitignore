@@ -1,6 +1,4 @@
 config.yml
-nginx.site
-cp-html.sh
 
 target/
 .idea/
