@@ -16,6 +16,7 @@ cp index.html $ZODIAC_TARGET_DIR/index.html
 cp bundle.js $ZODIAC_TARGET_DIR/bundle.js
 cp bundle.css $ZODIAC_TARGET_DIR/bundle.css
 cp img/* $ZODIAC_TARGET_DIR/img/
+cp certs/* $ZODIAC_TARGET_DIR/certs/
 
 git checkout master
 
