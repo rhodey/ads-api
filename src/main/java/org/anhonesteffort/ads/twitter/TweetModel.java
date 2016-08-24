@@ -34,7 +34,7 @@ public class TweetModel {
     id         = status.getId();
     timeMs     = status.getCreatedAt().getTime();
     handle     = status.getUser().getScreenName();
-    accountPic = status.getUser().getProfileImageURL();
+    accountPic = status.getUser().getProfileImageURLHttps();
     text       = status.getText();
   }
 
