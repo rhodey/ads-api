@@ -32,8 +32,7 @@ public class AdsResource {
   @GET
   public AdModel getAd() {
     return new AdModel(
-        random.nextLong(), "http://twitter.com/notrhodey",
-        "http://ad-design.966v.com/static_images/20160813/988fb5a204e28c01faccbfa43c6e7eeee9d8548acd67759cadd24a94.jpg"
+        random.nextLong(), "http://twitter.com/notrhodey", "https://i.imgur.com/zM1n1p6.jpg"
     );
   }
 
