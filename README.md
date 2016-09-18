@@ -6,7 +6,8 @@ The server-side component of [zodiactweets.com](https://github.com/rhodey/zodiac
 ```
 # useradd -m ads-api
 # su ads-api
-$ cd /home/ads-api
+$ mkdir /home/ads-api/src
+$ cd /home/ads-api/src
 $ git clone https://github.com/rhodey/ads-api
 $ cd ads-api
 $ mvn package
@@ -27,7 +28,6 @@ $ java -jar target/ads-api-0.1.jar server config/config.yml
 # cp config/ads-api.conf /etc/init/ads-api.conf
 # initctl reload-configuration
 # start ads-api
-# <nginx>
 ```
 
 ## License
